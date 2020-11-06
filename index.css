@@ -3,6 +3,7 @@
     height: 19px;
     line-height: 19px;
     vertical-align: middle;
+    /* 取消非文字的基线对齐 */
 }
 .rate > span.rate-item {
     background-image: url('./images/star.png');

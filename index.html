@@ -19,6 +19,18 @@
 </head>
 
 <body>
+    <!-- 
+        组件：独立的一个功能，是可以直接拿过来用的，可以动态插入也可以静态插入
+        插件：需要动态插入的一个功能 并且还是对已有的代码或者库文件进行扩展的一些功能
+        div.demo
+        script.src="./index.js"
+        script>demo.insertStarRating({
+            max:5,
+            score:2,
+            message:['1','2','3','4','5'],
+            disabled: false,
+        })
+     -->
     <div id="wrapper"></div>
     <div id="wrapper1"></div>
     <div id="wrapper2"></div>
@@ -34,6 +46,7 @@
             score: 3,
             message: ['极差', '合格', '中等', '良好', '优秀'],
         });
+        // 初始化当前的星级评分区域
         obj.init()
         var wrapper = document.getElementById('wrapper');
         var wrapper1 = document.getElementById('wrapper1');
