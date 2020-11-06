@@ -1,0 +1,15 @@
+.rate > span {
+    display: inline-block;
+    height: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+}
+.rate > span.rate-item {
+    background-image: url('./images/star.png');
+    background-repeat: no-repeat;
+    width: 24px;
+    cursor: pointer;
+}
+.rate > span.rate-item.rate-item-on {
+    background-position: 0 -28px;;
+}
